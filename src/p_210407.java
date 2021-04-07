@@ -14,10 +14,18 @@ public class p_210407 {
 //		char ch1="A"; // ERROR:" "is String
 		char ch2='A';
 		
-		final int MAX=100;
+		final int MAX=100; // CONSTANT
 		
-		 
+//		byte b=128; //ERROR:-128~127
+		int i1='A'; // int > char
+//		int i2=3_000_000_000; // ERROR:-20¾ï~20¾ï
+//		int i3=3_000_000L; // ERROR:long>int
+//		float f=3.14; // ERROR:float<double
 		
+		int oct=011; // 9
+		int hex=0x11; // 17
+		System.out.println(oct);
+		System.out.println(hex);		
 	}
 
 }
