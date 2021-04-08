@@ -1,5 +1,5 @@
 
-public class p_210407 {
+public class c1_210407 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
