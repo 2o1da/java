@@ -12,7 +12,7 @@ class Product1 {
 }
 
 class Buyer1 {
-	Product1[] cart = new Product1[10]; // 다형성:하나의 배열에 여러 종류의 객체 저장
+	Product1[] cart = new Product1[10]; // 다형성:하나의 배열에 여러 종류의 객체 저장 
 
 	int money = 1000, bonus = 0;
 	int i = 0;
