@@ -51,7 +51,7 @@ public class c7_12_210417 {
 		Unit[] group = { new Marine(), new Tank(), new Dropship() }; // 배열 생성과 초기화 한번에 함
 
 		Object[] group2 = new Object[3];
-//		group2[0].move(100,200); // ERROR:Marine 객체체 move가 있으나 Object 리모컨에 move가 없기 때문
+//		group2[0].move(100,200); // ERROR:Marine 객체에 move가 있으나 Object 리모컨에 move가 없기 때문
 
 		for (int i = 0; i < group.length; i++) {
 			// 참조변수.객체 메서드
